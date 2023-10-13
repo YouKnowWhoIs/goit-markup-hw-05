@@ -648,6 +648,19 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
+.form_label_div {
+  margin-bottom: 8px;
+}
+
+.form_label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
 .form_input {
   width: 360px;
   border-radius: 4px;
@@ -658,11 +671,6 @@ button:focus {
 
 .modal_input_wrap {
   position: relative;
-}
-
-.form_label {
-  display: flex;
-  flex-direction: column;
 }
 
 .icon-modal {
