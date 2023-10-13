@@ -609,6 +609,7 @@ button:focus {
 }
 
 .form_close {
+  margin: 0 auto;
   width: 24px;
   height: 24px;
   top: 24px;
