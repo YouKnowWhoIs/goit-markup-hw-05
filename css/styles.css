@@ -205,7 +205,7 @@ button:focus {
   background-color: #404bbf;
 }
 .main-button,
-.form-button {
+.form_button {
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.64px;
@@ -735,6 +735,11 @@ button:focus {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.form_text_a {
+  color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .form_button {
