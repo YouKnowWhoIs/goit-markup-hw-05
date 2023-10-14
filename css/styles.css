@@ -699,7 +699,8 @@ button:focus {
   background-color: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 8px 0 0 16px;
+  padding: 8px 16px;
+  outline: transparent;
 }
 .form_text:focus {
   border-color: #4d5ae5;
@@ -709,18 +710,19 @@ button:focus {
   margin-bottom: 24px;
 }
 
-.form_checkbox {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+.form_checkbox:checked + .text_checkbox span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .text_checkbox {
-  padding-left: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
 }
 
 .form_span {
@@ -731,9 +733,14 @@ button:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.text_checkbox span {
   fill: transparent;
 }
 
