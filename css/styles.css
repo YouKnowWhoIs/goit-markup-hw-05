@@ -740,10 +740,6 @@ button:focus {
   fill: transparent;
 }
 
-.text_checkbox span {
-  fill: transparent;
-}
-
 .form_text_a {
   color: #4d5ae5;
   text-decoration: underline;
