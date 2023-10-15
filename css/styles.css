@@ -512,14 +512,12 @@ button:focus {
 .footer_form_title {
   color: #fff;
   font-weight: 500;
-  margin-bottom: 16px;
   line-height: 1.5;
 }
 
 .footer_form_all {
   display: flex;
   flex-direction: row;
-  gap: 24px;
 }
 
 .footer_form_email {
