@@ -69,11 +69,6 @@ section {
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.container-header {
-  display: flex;
-  flex-direction: row;
-}
-
 .header-logo,
 .footer-logo {
   color: #4d5ae5;
@@ -86,6 +81,11 @@ section {
 }
 .header-color-logo {
   color: #2e2f42;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
 }
 
 .header-logo {
